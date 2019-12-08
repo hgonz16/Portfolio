@@ -1,0 +1,69 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../images/back.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset{
+    border: 0;
+}
+
+#comment{
+    resize: none;
+    height: 12em;
+    width: 30em;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    height: 800px;   
+}
+
+input[type=text], select{
+    width:100%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #4c74af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]{
+    width: 100%;
+    background-color: #4c74af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover{
+    background-color: #6994bb;
+}
+
+input[type=submit]:hover{
+    background-color: #6994bb;
+}

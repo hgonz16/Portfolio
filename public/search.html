@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Search engine</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="burger" id="js-burger">
+            <i class="fa fa-bars"></i>
+        </span>
+        <header class="logo">
+            <h3>Portfolio</h3>
+        </header>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a class="nav-links" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="about nav-links" href="index.html#about">About</a>
+            </li>
+            <li>
+                <a class="projects nav-links" href="index.html#projects">Projects</a>
+            </li>
+            <li>
+                <a class="contact nav-links" href="index.html#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form id="container" method="GET" action="#">
+            <fieldset id="top">
+                <label for="title">Search by title:</label>
+                <input id="title" type="text" /></br>
+                <div id="titleoutput"></div>
+            </fieldset>
+
+            <fieldset id="middle">
+                <label for="author">Search by author:</label>
+                <input id="author" type="text" /></br>
+                <div id="authoroutput"></div>
+            </fieldset>
+
+            <fieldset id="last">
+                <label for="year">Search by year:</label>
+                <input id="year" type="text" /></br>
+                <div id="outputyear"></div>
+            </fieldset>
+        </form>
+    </main>
+    <script type="text/javascript" src="js/small-menu.js"></script>
+    <script type="text/javascript" src="js/book-search.js"></script>
+</body>
+
+</html>
