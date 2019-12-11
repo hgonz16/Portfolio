@@ -8,7 +8,7 @@ body, html{
 
 #border,
 #greeting{
-  color: white;
+  color: black;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ body, html{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-image: url(../images/back.jpg);
+  background-color: black;
   padding-bottom: 10px;
   position: relative;
   background-attachment: fixed;
@@ -106,7 +106,6 @@ body, html{
       display: none;
   }
 
-  .logo:hover,
   .nav-links:hover {
       color: #2F3333;
   }
