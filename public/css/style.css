@@ -3,7 +3,6 @@ body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(../images/back.jpg);    
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -23,15 +22,15 @@ nav{
 }  
 
 #bgimg-1{
-    background-image: url(../images/back.jpg);
+    background-image: url(../images/code.jpg);
     min-height: 100%;
 }
 #bgimg-2{   
-    background-image: url(../images/back.jpg);
+    background-image: url(../images/tech.jpg);
     min-height: 400px;
 }
 #bgimg-3{
-    background-image: url(../images/back.jpg);
+    background-image: url(../images/contact.jpg);
     min-height: 400px;
 }
 
@@ -56,7 +55,7 @@ nav{
 }
 
 #greeting{
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
@@ -73,22 +72,22 @@ h2{
   
 #about{    
     color: white;
-    padding: 400px 20vw;
+    padding: 400px 300px;
     font-size: 18px;
-    background-color: #0F0F11;
+    background-color:#28272A;
 }
 
 #projects{
     text-align: center;
     padding: 300px 80px;
-    background-color: #7E838C;
+    background-color: #7C8484;
 }
 
 #contact{
     color: white;
     text-align: center;
     padding: 400px 80px;
-    background-color: #162C36;
+    background-color: #B0B5B7;
 }
 
 .intro-text {
@@ -140,112 +139,76 @@ h2{
     overflow: hidden;
   }  
   
-  .cardCont > * {
+.cardCont > * {
       pointer-events: auto;
-    }
+}
     
-  .cardCont:hover > * {
+.cardCont:hover > * {
       opacity: 0.5;
-    }
+}
     
-  .cardCont:hover > *:hover {
-      transform: scale(1.2);
-      opacity: 1;
-    }
+.cardCont:hover > *:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
   
-  .card, 
-  .wCard,
-  .tCard,
-  .sCard,
-  .vCard{
-      background-color: #172530;
-      box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
-      width: 200px;
-      height: 200px;
-      margin: 25px;
-      border-radius: 4px;
-      font-style: bold;
-      font-size: 18px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;    
-      transition: 300ms opacity, 300ms transform;
-  }
+.card, 
+.wCard,
+.tCard,
+.sCard,
+.vCard{
+    background-color: #172530;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 4px;
+    font-style: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;    
+    transition: 300ms opacity, 300ms transform;
+}
   
-  .card {
-      background-image: url(../images/book.png);
-      background-position: center; 
-  }
-  .wCard {
-      background-image: url(../images/cloud.png);
-      background-position: center; 
-  }
-  .tCard {
-      background-image: url(../images/todo.png);
-      background-position: center; 
-  }
-  .sCard {
-      background-image: url(../images/sort.png);
-      background-position: center; 
-  }
-  .vCard {
-      background-image: url(../images/form.png);
-      background-position: center; 
-  }
-  
-  .vCard
-  a:link {
-      text-decoration: none;
-      color: black;
-  }
-  .card
-  a:link {
-      text-decoration: none;
-      color: black;
-  }
-  .wCard
-  a:link {
-      text-decoration: none;
-      color: black;
-  }
-  .tCard
-  a:link {
-      text-decoration: none;
-      color: black;
-  }
-  .sCard
-  a:link {
-      text-decoration: none;
-      color: black;
-  }
-  
-  .vCard
-  a:visited {   
-      text-decoration: none;
-      color: black;
-  }
-  .sCard
-  a:visited {   
-      text-decoration: none;
-      color: black;
-  }
-  .tCard
-  a:visited {   
-      text-decoration: none;
-      color: black;
-  }
-  .wCard
-  a:visited {   
-      text-decoration: none;
-      color: black;
-  }
-  .card
-  a:visited {   
-      text-decoration: none;
-      color: black;
-  }
+.card {
+    background-image: url(../images/bookc.png);
+    background-position: center; 
+}
+.wCard {
+    background-image: url(../images/cloudc.png);
+    background-position: center; 
+}
+.tCard {
+    background-image: url(../images/todoc.png);
+    background-position: center; 
+}
+.sCard {
+    background-image: url(../images/sortc.png);
+    background-position: center; 
+}
+.vCard {
+    background-image: url(../images/formc.png);
+    background-position: center; 
+}
 
+.card a:link, 
+.wCard a:link,
+.tCard a:link,
+.sCard a:link,
+.vCard a:link{
+    text-decoration: none;
+    color: black;
+}
+.card a:visited,
+.wCard a:visited,
+.tCard a:visited,
+.sCard a:visited,
+.vCard a:visited{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (min-width:320px) and (max-width:640px) {
     body, html{
         height: 100%;
