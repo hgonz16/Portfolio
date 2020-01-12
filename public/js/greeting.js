@@ -1,5 +1,5 @@
 // Adds a welcome greeting depending on the hour.
-const myGreeting = function myGreeting() {
+const myGreeting = function indexPageGreeting() {
   const today = new Date();
   const hourNow = today.getHours();
   let greeting;
